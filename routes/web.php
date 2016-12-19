@@ -5,6 +5,9 @@ Route::get('/', function () {
 });
 
 Route::resource('dashboard/expert', 'Dashboard\ExpertsController');
+Route::resource('dashboard/role', 'Dashboard\RolesController');
+
+
 
 Auth::routes();
 
